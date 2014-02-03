@@ -1,0 +1,4 @@
+(defproject {{name}} "0.0.1"
+  :dependencies [[org.clojure/clojure "1.5.1"]]
+  :target-path "build"
+  :clean-targets ["build"])
