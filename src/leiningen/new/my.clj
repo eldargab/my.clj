@@ -10,7 +10,6 @@
               :sanitized (name-to-path name)}]
     (main/info "Generating fresh 'lein new' my project.")
     (->files data
-             ["src/{{sanitized}}.clj" (render "src/core.clj" data)]
              ["project.clj" (render "project.clj" data)]
              [".gitignore" (render ".gitignore" data)]
              ["Readme.md" (render "Readme.md" data)])))
